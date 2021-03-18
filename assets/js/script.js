@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     // For Loop to create row hours with classes and IDs
     for (i = 0; i < workHours.length; i++) {
-        $(`<div class="col-2 time-block"></div>`)
+        $(`<div class="col-2 btn btn-secondary  time-block"></div>`)
             .text(workHours[i])
             .appendTo(".row");
         $(`<textarea class="col-8 note-input empty hello" id="time-${i}"></textarea>`)
