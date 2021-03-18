@@ -126,7 +126,6 @@ $(document).ready(function () {
     function output1() {
         localStorage.setItem("9:00", row9am.value);
         document.getElementById("time-0").value = "";
-
     }
 
 
@@ -187,6 +186,7 @@ $(document).ready(function () {
     function output6() {
         localStorage.setItem("14:00", row2pm.value);
         document.querySelector(".note-input").value = "";
+        document.getElementById("time-5").value = "";
     }
 
 
@@ -200,6 +200,7 @@ $(document).ready(function () {
     function output7() {
         localStorage.setItem("15:00", row3pm.value);
         document.querySelector(".note-input").value = "";
+        document.getElementById("time-6").value = "";
     }
 
 
@@ -212,6 +213,7 @@ $(document).ready(function () {
     function output8() {
         localStorage.setItem("16:00", row4pm.value);
         document.querySelector(".note-input").value = "";
+        document.getElementById("time-7").value = "";
     }
 
 
@@ -224,5 +226,6 @@ $(document).ready(function () {
     function output9() {
         localStorage.setItem("17:00", row5pm.value);
         document.querySelector(".note-input").value = "";
+        document.getElementById("time-8").value = "";
     }
 });
